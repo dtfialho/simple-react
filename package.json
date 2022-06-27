@@ -8,5 +8,17 @@
   "license": "MIT",
   "scripts": {},
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.5",
+    "@babel/eslint-parser": "^7.18.2",
+    "@babel/plugin-transform-runtime": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "@babel/runtime": "^7.18.3",
+    "babel-loader": "^8.2.5",
+    "eslint": "^8.18.0",
+    "webpack": "^5.73.0",
+    "webpack-dev-server": "^4.9.2"
+  }
 }
