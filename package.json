@@ -1,6 +1,6 @@
 {
   "name": "simple-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A minimalist boilerplate for React",
   "main": "index.js",
   "repository": "git@github.com:dtfialho/simple-react.git",
