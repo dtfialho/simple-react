@@ -4,11 +4,9 @@ A minimalist boilerplate for simple React applications
 
 **Commands:**
 
-```
-> yarn start: runs development server
-> yarn build: makes a production ready build
-> yarn lint: search for errors in code
-```
+- `yarn start` runs development server
+- `yarn build` makes a production ready build
+- `yarn lint` search for errors in code
 
 **License:** [MIT](LICENSE)
 
