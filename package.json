@@ -6,7 +6,10 @@
   "repository": "git@github.com:dtfialho/simple-react.git",
   "author": "Diego T. Fialho <diego.tfialho@gmail.com>",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "webpack-dev-server --config webpack/development",
+    "build": "webpack --config webpack/production"
+  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
