@@ -1,28 +1,28 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const path = require("path");
+const path = require('path')
 
 module.exports = {
-  entry: path.join(__dirname, "..", "src", "index.js"), 
+  entry: path.join(__dirname, '..', 'src', 'index.js'),
   output: {
-    path: path.resolve(__dirname, "..", "dist"),
-    filename: "main.js"
+    path: path.resolve(__dirname, '..', 'dist'),
+    filename: 'main.js'
   },
-  target: "web",
+  target: 'web',
   resolve: {
-    extensions: ['.js','.jsx','.json'] 
+    extensions: ['.js', '.jsx', '.json']
   },
-  module:{
+  module: {
     rules: [
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        use:  'babel-loader'
+        use: 'babel-loader'
       }
     ]
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.join(__dirname, "..", "public", "index.html")
+      template: path.join(__dirname, '..', 'public', 'index.html')
     })
   ]
 }

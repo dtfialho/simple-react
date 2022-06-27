@@ -8,14 +8,14 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --config webpack/development",
-    "build": "webpack --config webpack/production"
+    "build": "webpack --config webpack/production",
+    "lint": "eslint ."
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.17.10",
     "@babel/core": "^7.18.5",
     "@babel/eslint-parser": "^7.18.2",
     "@babel/plugin-transform-runtime": "^7.18.5",
@@ -24,7 +24,11 @@
     "@babel/runtime": "^7.18.3",
     "babel-loader": "^8.2.5",
     "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.1.0",
+    "eslint-plugin-react": "^7.30.1",
     "html-webpack-plugin": "^5.5.0",
+    "prettier": "^2.7.1",
     "webpack": "^5.73.0",
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.9.2"

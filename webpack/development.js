@@ -1,13 +1,13 @@
-const common = require("./common")
+const common = require('./common')
 
 module.exports = {
   ...common,
-  mode: "development",
+  mode: 'development',
   devServer: {
-    port: "3000",
-    static: ["../public"],
+    port: '3000',
+    static: ['../public'],
     open: true,
-    hot: true ,
+    hot: true,
     liveReload: true
   }
 }

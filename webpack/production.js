@@ -1,6 +1,6 @@
-const common = require("./common")
+const common = require('./common')
 
 module.exports = {
   ...common,
-  mode: "production"
+  mode: 'production'
 }
