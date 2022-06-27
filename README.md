@@ -1,6 +1,6 @@
 # Simple React
 
-A minimalist boilerplate for React simple applications
+A minimalist boilerplate for simple React applications
 
 **Commands:**
 
